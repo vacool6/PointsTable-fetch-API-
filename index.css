@@ -1,0 +1,46 @@
+td {
+  font-size: 1.25rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+th {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+
+.loading td {
+  text-align: center;
+}
+
+.points,
+.nrr {
+  transition: color 0.25s;
+  cursor: pointer;
+}
+.points:hover,
+.nrr:hover {
+  color: rgb(242, 59, 59);
+}
+
+@media (max-width: 1000px) {
+  td {
+    font-size: 1.25rem;
+    padding: 0.15rem;
+  }
+  th {
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
+}
+@media (max-width: 500px) {
+  td {
+    font-size: 0.75rem;
+  }
+  th {
+    font-size: 0.5rem;
+  }
+}
